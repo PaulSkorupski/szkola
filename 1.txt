@@ -9,3 +9,7 @@ tworzenie baz danych:
 
 usuwanie baz danych:
     drop database NAZWA
+
+przełącz na wskazaną bazę danych
+	use NAZWA
+

@@ -1,0 +1,11 @@
+SKRYPTY W KOLEJNOŚCI:
+
+OBA SKRYPTY POWINNY BYĆ W TYM SAMYM FOLDERZE
+
+tworzenie kopi: 
+    1.skrypt.cmd
+    2.kopia.cmd
+    //uruchom skrypt.cmd. Reszta wykona się sama (pamiętaj aby dostosować oba skrypty (ustawić nazwę bazy danych oraz ścieżki))
+
+przywracanie kopi:
+    1.

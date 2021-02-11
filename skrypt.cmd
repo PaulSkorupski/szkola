@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLEXPRESS -i c:\Users\Admin\Desktop\kopia.cmd -o e:\sql\wyniki.txt

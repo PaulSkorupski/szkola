@@ -1,0 +1,1 @@
+BACKUP DATABASE [nazwa] TO DISK = N'C:\Users\Admin\Desktop\nowa.bak' WITH NOFORMAT, NOINIT, NAME = N'Test baza danych backup', SKIP, NOREWIND, NOUNLOAD, STATS = 10
