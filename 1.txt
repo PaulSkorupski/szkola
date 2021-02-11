@@ -19,7 +19,7 @@ wyświetlanie danych tabeli:
     select * from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ
 
 dodawanie danych do tabeli:
-    insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (TYP_DANYCH, "TYP_DANYCH")
+    insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (WARTOŚĆ, "WARTOŚĆ")
 
 edytowanie struktury tabeli:
     alter table NAZWA_TABELI drop column NAZWA_KOLUMNY
@@ -28,3 +28,5 @@ edytowanie struktury tabeli:
 
     alter table NAZWA_TABELI alter column NAZWA_KOLUMNY TYP_DANYCH
 
+edytowanie wartości w kolumnach (edytowanie danych):
+    update NAZWA_TABELI set NAZWA_KOLUMNY=WARTOŚĆ, NAZWA_KOLUMNY_2=WARTOŚĆ_2 where NAZWA_KOLUMNY=WARTOŚĆ //no po prostu warunek po where dajesz
