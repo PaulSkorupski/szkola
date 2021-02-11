@@ -9,3 +9,6 @@ tworzenie baz danych:
 
 usuwanie baz danych:
     drop database NAZWA
+
+tworzenie tabel:
+    create table NAZWA_TABELI(NAZWA_KOLUMNY TYP_DANYCH)
