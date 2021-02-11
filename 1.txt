@@ -1,1 +1,2 @@
-dsam;kfdqnfoueqin
+uruchomienie i logowanie:
+    sqlcmd -S .\SQLEXPRESS
