@@ -16,7 +16,7 @@ tworzenie tabel:
 wyświetlanie danych tabeli:
     select * from NAZWA_TABELI
 
-    select * from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ
+    select * from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ //po where zamiast "=" mozesz dac np. "<" lub ">"
 
 dodawanie danych do tabeli:
     insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (WARTOŚĆ, "WARTOŚĆ")
@@ -30,3 +30,7 @@ edytowanie struktury tabeli:
 
 edytowanie wartości w kolumnach (edytowanie danych):
     update NAZWA_TABELI set NAZWA_KOLUMNY=WARTOŚĆ, NAZWA_KOLUMNY_2=WARTOŚĆ_2 where NAZWA_KOLUMNY=WARTOŚĆ //no po prostu warunek po where dajesz
+
+usuwanie danych:
+    delete from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ
+
