@@ -1,2 +1,5 @@
 uruchomienie i logowanie:
     sqlcmd -S .\SQLEXPRESS
+
+usuwanie baz danych:
+    drop database NAZWA
