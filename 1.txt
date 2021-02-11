@@ -19,7 +19,7 @@ wyświetlanie danych tabeli:
     select * from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ
 
 dodawanie danych do tabeli:
-    insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (TYP_DANYCH, "TYP_DANYCH")
+    insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (WARTOŚĆ, "WARTOŚĆ")
 
 edytowanie struktury tabeli:
     alter table NAZWA_TABELI drop column NAZWA_KOLUMNY
