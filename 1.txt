@@ -1,2 +1,9 @@
 uruchomienie i logowanie:
     sqlcmd -S .\SQLEXPRESS
+
+wyświetlenie baz danych:
+	select name from sys.databases
+
+tworzenie baz danych:
+	create database NAZWA
+
