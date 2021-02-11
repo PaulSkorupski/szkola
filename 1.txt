@@ -4,6 +4,12 @@ uruchomienie i logowanie:
 wyświetlenie baz danych:
 	select name from sys.databases
 
+wyświetlenie bazy, w której aktualnie jesteś:
+    select db_name()
+
+wejście do bazy danych:
+    use NAZWA //poza bazą jesteś po prostu w bazie master
+
 tworzenie baz danych:
 	create database NAZWA
 
