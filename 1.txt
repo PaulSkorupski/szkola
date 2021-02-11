@@ -12,3 +12,6 @@ usuwanie baz danych:
 
 tworzenie tabel:
     create table NAZWA_TABELI(NAZWA_KOLUMNY TYP_DANYCH)
+
+wyświetlanie danych tabeli:
+    select * from NAZWA_TABELI
