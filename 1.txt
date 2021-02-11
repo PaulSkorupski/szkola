@@ -10,6 +10,18 @@ wyświetlenie bazy, w której aktualnie jesteś:
 wejście do bazy danych:
     use NAZWA //poza bazą jesteś po prostu w bazie master
 
+sprawdzanie właściwości serwera:
+    select serverproperty('NAZWA_WŁAŚCIWOŚCI') //przyklady wlasciwosci - collation, edition, isintegratedsecurityonly
+
+wyświetlanie listy zmiennych w T-SQL:
+    :listvar
+
+wykonanie skryptu sqlcmd:
+    sqlcmd -S .\SQLEXPRESS -i c:\sql\kwerenda.sql -o c:\sql\wynik.txt //-i określa źródło, czyli skrypt zawierający kwerendy, -o zawiera lokalizację pliku z rezultatem (jeśli nie istnieje, zostanie stworzony)
+
+wyświetlenie struktury tabeli:
+    sqlcmd -S .\SQLEXPRESS -E -Q "use text exec sp_help przyklad" -o c:\sql\wynik.txt
+
 tworzenie baz danych:
 	create database NAZWA
 
