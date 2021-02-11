@@ -7,3 +7,5 @@ wyświetlenie baz danych:
 tworzenie baz danych:
 	create database NAZWA
 
+usuwanie baz danych:
+    drop database NAZWA
