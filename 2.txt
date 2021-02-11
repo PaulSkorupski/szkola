@@ -8,4 +8,6 @@ tworzenie kopi:
     //uruchom skrypt.cmd. Reszta wykona się sama (pamiętaj aby dostosować oba skrypty (ustawić nazwę bazy danych oraz ścieżki))
 
 przywracanie kopi:
-    1.
+    1.restore_backup.cmd
+    2.odtworz.cmd
+    //uruchom restore_backup.cmd Reszta wykona się sama (pamiętaj aby dostosować oba skrypty (ustawić nazwę bazy danych oraz ścieżki))

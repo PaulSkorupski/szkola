@@ -1,0 +1,1 @@
+sqlcmd -S .\SQLEXPRESS -i c:\Users\Admin\Desktop\odtworz.cmd -o c:\Users\Admin\Desktop\wyniki_restore.txt
