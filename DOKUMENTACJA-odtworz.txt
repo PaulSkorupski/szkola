@@ -1,0 +1,2 @@
+RESTORE DATABASE [nazwa] //* nazwa dla bazy danych która zostanie odtworzona *// FROM DISK = N'c:\Users\Admin\Desktop\nowa.bak' //* ścieżka do pliku zawierającego kopię bazy danych (w wspieranym formacie) *// WITH FILE = 1, NOUNLOAD, STATS = 5 //* dziwne parametry *//
+GO
