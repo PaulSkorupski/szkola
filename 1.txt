@@ -10,14 +10,13 @@ tworzenie baz danych:
 usuwanie baz danych:
     drop database NAZWA
 
-przełącz na wskazaną bazę danych
-	use NAZWA
-
 tworzenie tabel:
     create table NAZWA_TABELI(NAZWA_KOLUMNY TYP_DANYCH)
 
 wyświetlanie danych tabeli:
     select * from NAZWA_TABELI
+
+    select * from NAZWA_TABELI where NAZWA_KOLUMNY=WARTOŚĆ
 
 dodawanie danych do tabeli:
     insert into NAZWA_TABELI (NAZWA_KOLUMNY, NAZWA_KOLUMNY_2) values (TYP_DANYCH, "TYP_DANYCH")
@@ -28,3 +27,4 @@ edytowanie struktury tabeli:
     alter table NAZWA_TABELI add NAZWA_KOLUMNY
 
     alter table NAZWA_TABELI alter column NAZWA_KOLUMNY TYP_DANYCH
+
